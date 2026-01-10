@@ -140,3 +140,7 @@ The energy model used is a simplified proxy and does not account for:
 - Actual wind farm locations or sizes
 
 As a result, energy values are relative rather than absolute.
+
+## Conclusion
+
+This project demonstrates the use of real-world meteorological data to perform applied data analysis with relevance to renewable energy. Through systematic cleaning, exploration, and modelling, it provides insight into how wind resources vary across Ireland and highlights the importance of location in wind energy generation.
