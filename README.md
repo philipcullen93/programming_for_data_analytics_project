@@ -39,13 +39,36 @@ The raw data files were downloaded manually from the Met Éireann website and st
 ## Project Structure
 
 ├── data/
+
 │ ├── malin_head.csv
+
 │ ├── valentia.csv
+
 │ ├── dublin_airport.csv
+
 │ └── mullingar.csv
+
 │
+
 ├── wind_energy_analysis.ipynb
+
 ├── README.md
+
+## How to Run the Project
+
+1. Clone the repository
+
+2. Ensure Python 3 and the following packages are installed:
+
+  - pandas
+
+  - numpy
+
+  - matplotlib
+
+3. Open wind_energy_analysis.ipynb in Jupyter Notebook
+
+4. Run all cells from top to bottom
 
 ## Methodology
 ### 1. Data Loading and Inspection
@@ -78,7 +101,7 @@ The raw data files were downloaded manually from the Met Éireann website and st
 
 - A simplified energy proxy proportional to the cube of wind speed was used:
 
--- Energy ∝ wind_speed³
+  - Energy ∝ wind_speed³
 
 - Daily estimated energy generation was calculated for each station
 
@@ -93,3 +116,27 @@ The raw data files were downloaded manually from the Met Éireann website and st
 - Line plots, histograms, and bar charts were employed
 
 - Visualisations prioritise clarity and readability
+
+## Key Findings
+
+- Coastal stations (Malin Head and Valentia) exhibit consistently higher wind speeds
+
+- Inland stations (Mullingar) show lower wind speeds and reduced energy potential
+
+- Dublin Airport and Valentia display similar wind patterns, likely due to coastal exposure and prevailing Atlantic winds
+
+- Estimated energy generation is highly variable due to the cubic relationship with wind speed
+
+- Long-term aggregation highlights coastal locations as significantly more suitable for wind energy generation
+
+## Limitations
+
+The energy model used is a simplified proxy and does not account for:
+
+- Turbine cut-in or cut-out speeds
+
+- Turbine efficiency or rated capacity
+
+- Actual wind farm locations or sizes
+
+As a result, energy values are relative rather than absolute.
