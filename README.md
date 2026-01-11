@@ -144,3 +144,19 @@ As a result, energy values are relative rather than absolute.
 ## Conclusion
 
 This project demonstrates the use of real-world meteorological data to perform applied data analysis with relevance to renewable energy. Through systematic cleaning, exploration, and modelling, it provides insight into how wind resources vary across Ireland and highlights the importance of location in wind energy generation.
+
+## References
+
+[1] Met Éireann – The Irish Meteorological Service. Historical Weather Data. https://www.met.ie/climate/available-data/historical-data
+
+[2] Burton, T., Sharpe, D., Jenkins, N., & Bossanyi, E. (2011). *Wind Energy Handbook*. Wiley.
+
+[3] International Renewable Energy Agency (IRENA). *Wind Energy Technology Brief*.
+
+[4] Carta, J. A., Ramírez, P., & Velázquez, S. (2009). A review of wind speed probability distributions used in wind energy analysis. *Renewable and Sustainable Energy Reviews*, 13(5), 933–955.
+
+[5] Manwell, J. F., McGowan, J. G., & Rogers, A. L. (2010). *Wind Energy Explained: Theory, Design and Application*. Wiley.
+
+[6] IPCC (2021). *Climate Change 2021: The Physical Science Basis*. Sixth Assessment Report.
+
+[7] Archer, C. L., & Jacobson, M. Z. (2005). Evaluation of global wind power. *Journal of Geophysical Research*, 110(D12).
